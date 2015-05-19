@@ -1,0 +1,10 @@
+{
+    "AppSettings": {
+        "SiteTitle": "weshop"
+    },
+    "Data": {
+        "DefaultConnection": {
+            "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-weshop-095a632e-96a1-47bd-ac86-74586a162161;Trusted_Connection=True;MultipleActiveResultSets=true"
+        }
+    }
+}
