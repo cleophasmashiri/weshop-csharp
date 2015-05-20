@@ -1,0 +1,9 @@
+@model PagedList.IPagedList<Product>
+@using PagedList.Mvc;
+
+<h2>Products</h2>
+
+@foreach(var p in Model) 
+{
+    <div>@Html.DisplayFor(modelItem=>p.Title)</div>
+}

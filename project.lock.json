@@ -24,7 +24,9 @@
       "Microsoft.Framework.CodeGenerators.Mvc >= 1.0.0-beta4",
       "Microsoft.Framework.Logging >= 1.0.0-beta4",
       "Microsoft.Framework.Logging.Console >= 1.0.0-beta4",
-      "Kestrel >= 1.0.0-beta4"
+      "Kestrel >= 1.0.0-beta4",
+      "PagedList >= 1.17.0",
+      "PagedList.Mvc >= 1.17.0"
     ],
     "DNX,Version=v4.5.1": [],
     "DNXCore,Version=v5.0": []
@@ -4878,6 +4880,70 @@
         "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.dll",
         "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.xml",
         "tools/install.ps1"
+      ]
+    },
+    "PagedList/1.17.0.0": {
+      "serviceable": false,
+      "sha": "Ou6F3WKXh49hOo0TxWM+SkIGuKllYPuPPvnSYOlQ1sTrtuEyuDUhYbSJd5Sdb06i/sWUJZTjiUecEs3Ht/Hx3g==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net40/PagedList.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net40/PagedList.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "PagedList.1.17.0.0.nupkg",
+        "PagedList.1.17.0.0.nupkg.sha512",
+        "PagedList.nuspec",
+        "lib/net40/PagedList.dll",
+        "lib/net40/PagedList.xml"
+      ]
+    },
+    "PagedList.Mvc/3.0.0.0": {
+      "serviceable": false,
+      "sha": "nhGHm0ndmi+flDgzxo7vDZp1Qh/TbQc8Sj/BRv17oKqpJjPaqgNQmHz9jK2HlEDq36qXIa1nzYTh6rY1JRIg0Q==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {
+            "PagedList": "1.2"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/40/PagedList.Mvc.dll"
+          ],
+          "compileAssemblies": [
+            "lib/40/PagedList.Mvc.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "PagedList": "1.2"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "PagedList.Mvc.3.0.0.0.nupkg",
+        "PagedList.Mvc.3.0.0.0.nupkg.sha512",
+        "PagedList.Mvc.nuspec",
+        "content/Content/PagedList.css",
+        "lib/40/PagedList.Mvc.dll",
+        "lib/40/PagedList.Mvc.pdb",
+        "lib/40/PagedList.Mvc.xml"
       ]
     },
     "Remotion.Linq/2.0.0-alpha-002": {
